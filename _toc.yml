@@ -3,6 +3,7 @@ root: index
 parts:
   - caption: Syllabus
     chapters:
+      - file grading
       - file: syllabus/about
       - file: syllabus/tools
       - file: syllabus/achievements
@@ -19,6 +20,7 @@ parts:
   - caption: Assignments
     numbered: True
     chapters:
+     - file: grading
     - file: assignments/01-syllabus-install
     # - file: assignments/02-python-access
     # - file: assignments/03-eda
@@ -33,6 +35,7 @@ parts:
     # - file: assignments/12-fake-news
   - caption: Portfolio
     chapters:
+     - file: grading
       - file: portfolio/index
       - file: portfolio/formatting
       - file: portfolio/check1ideas
@@ -40,12 +43,14 @@ parts:
       - file: portfolio/check3ideas
   - caption: FAQ
     chapters:
+     - file: grading
     - file: faq/index
     - file: faq/syllabus
     - file: faq/github
     - file: faq/debugging
   - caption: Resources
     chapters:
+     - file: grading
     - file: resources/glossary
     - file: resources/python
     - file: resources/cheatsheet
